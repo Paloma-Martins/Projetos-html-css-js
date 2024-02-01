@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Código Html</title>
+</head>
+<body>
+    <h1 id="inicio">Vamos falar sobre HTML?</h1>
+    <hr>
+    <h3>Índice</h3>
+    <ul>
+        <li><a href="#HTML">O que é HTML?</a></li>
+        <li><a href="#tags">O que são tags?</a></li>
+        <li><a href="#Tags_ex">Tags de exemplos</a></li>
+        <li><a href="#exemplo">Código exemplo</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <hr>
+    <h2 id="HTML">O que é HTML?</h2>
+    <p>
+        <i>HTML</i> é uma linguagem de marcação de hipertexto (HyperText Markup
+        Language), criada pelo britânico Tim Berners-Lee. <i>HTML</i> está presente
+        na maior parte das páginas web, é o ponto de partida para criar uma página pois desta 
+        forma fazemos sua estrutura. Hipertexto refere-se aos links que conectam páginas
+        entre si e a marcação é para anotar texto, imagem e outros conteúdos para 
+        exibição ma <i>Web</i>. A marcação inclui elementos especiais conhecidos como
+        tags: &lt;p&gt;, &lt;h1&gt;, &lt;div&gt;, e muitas outras. Todo arquivo <i>HTML</i>
+        e salvo com a extensão .html e pode ser criado até em um bloco de notas simples, só 
+        salvar com essa extensão.
+    </p>
+    <hr>
+    <h2 id="tags">O que são tags?</h2>
+    <p>
+        As tags são formadas pelo nome do elemento entre "<" e ">", a maioria das tags 
+        tem sua abertura e seu fechamento acrescentando "/" antes do seu nome como: &lt;p&gt;
+        está tag é um parágrafo&lt;/p&gt;.
+    </p>
+    <h3 id="Tags_ex">Algumas tags e seus significados.</h3>
+    <ul>
+        <li>
+            &lt;html&gt;&lt;html&gt; está tag é onde toda nossa estrutura da página
+            fica, todas as tags estão dentro dessa.
+        </li>
+        <li>
+            &lt;head&gt;&lt;/head&gt; está tag é conhecida como a cabeça do nosso
+            código html, dentro dela temos outras tags para descrição da página como
+            autor, titulo, estilos css e muito mais.
+        </li>
+        <li>
+            &lt;body&gt;&lt;/body&gt; está tag é o corpo da nossa página, todo o
+            conteúdo em si vai estar dentro dessa tag.
+        </li>
+        <li>
+            &lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt; são tags 
+            para títulos de forma hierárquica sendo o &lt;h1&gt; título principal e assim
+            por diante.
+        </li>
+        <li>
+            &lt;p&gt;&lt;/p&gt; parágrafo.
+        </li>
+        <li>
+            &lt;i&gt;&lt;/i&gt; deixa o texto em ítalico.
+        </li>
+        <li>
+            &lt;em&gt;&lt;/em&gt; ítalico/ênfase.
+        </li>
+        <li>
+            &lt;b&gt;&lt;/b&gt; deixa o texto em negrito.
+        </li>
+        <li>
+            &lt;strong&gt;&lt;/strong&gt;negrito/importância.
+        </li>
+        <li>
+            &lt;u&gt;&lt;/u&gt; deixa o texto sublinhado.
+        </li>
+        <li>
+            &lt;br&gt; insere quebra de linha.
+        </li>
+        <li>
+            &lt;hr&gt; insere uma linha horizontal.
+        </li>
+        <li>
+            &lt;mark&gt;&lt;/mark&gt; coloca uma marcação no texto.
+        </li>
+        <li>
+            &lt;blockuote&gt;&lt;/bluckuote&gt; insere uma citação serve para quando
+            utilizar algo de outras fontes.
+        </li>
+        <li>
+            &lt;abbr&gt;&lt;/abbr&gt; abreviação.
+        </li>
+        <li>
+            &lt;a&gt;&lt;/a&gt; insere links.
+        </li>
+        <li>
+            &lt;img&gt; insere imagens.
+        </li>
+        <li>
+            &lt;ul&gt;&lt;/ul&gt; cria uma lista não ordenada.
+        </li>
+        <li>
+            &lt;ol&gt;&lt;/ol&gt; cria uma lista ordenada.
+        </li>
+        <li>
+            &lt;li&gt;&lt;/li&gt; cria o item da lista.
+        </li>
+        <li>
+            &lt;title&gt;&lt;/title&gt; titulo da página.
+        </li>
+    </ul>
+    <hr>
+    <h2 id="exemplo">Vamos ver agora um exemplo</h2>
+    <img src="exhtml.png" alt="exemplo de código html">
+    <p><u>Agora explicarei algumas coisas que não foram ditas antes:</u></p>
+    <ol>
+        <li>
+            <mark>&lt;!DOCTYPE html&gt;</mark> nesta primeira linha apesar de ser bem parecido com uma tag
+            não é considerado uma, e sim uma declaração para informar aos navegadores qual a versão
+            do HTML utilizada, neste caso e o HTML5.
+        </li>
+        <li>
+            Na segunda linha temos o incio do HTML de fato porem temos um atributo
+            na tag <mark>lang="en"</mark> que é usado para definir a linguagem que foi
+            escrita essa página. Os atributos servem para controlar o comportamento de um
+            elemento.
+        </li>
+        <li>
+            Terceira linha temos o &lt;head&gt;(cabeça) com algumas tags. <mark>&lt;meta charset="UTF-8"&gt;</mark> esta tag possui
+            vários atributos neste caso <mark>charset="UTF-8"</mark> define o conjunto de caracteres que será exibido na <i>Web</i>.
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; nesta linha da tag meta temos mais de uma atributo
+            mais no geral esta linha tem a ver com a responsividade de um site, que seria ser adaptável a qualquer tela. Por fim
+            temos o título da página <mark>&lt;title&gt;Primeiro Código Html&lt;/title&gt;</mark> que aparecerá na parte de cima na aba do 
+            navegador.
+        </li>
+    </ol>
+    <hr>
+    <h2 id="referencias">Referências</h2>
+    <ul>
+        <li><a href="https://www.infoescola.com/informatica/html/" target="_blank">InfoEscola</a></li>
+        <li><a href="https://www.homehost.com.br/blog/tutoriais/doctype-html/" target="_blank">HomeHost</a></li>
+        <li><a href="https://awari.com.br/meta-charset-utf-8/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Meta%20Charset%20UTF-8:%20O%20Que%20É%20e%20Como%20Definir%20Corretamente#:~:text=O%20Meta%20Charset%20UTF-8%20é%20uma%20tag%20HTML%20que,especiais%20utilizados%20em%20diferentes%20idiomas." target="_blank">Awari</a></li>
+        <li><a href="https://methaseo.com.br/glossario/o-que-e-viewport/" target="_blank">Methaseo</a></li>
+        <li><a href="https://sebrae.com.br/sites/PortalSebrae/artigos/o-que-e-um-site-responsivo,4a6ad1eb00ad2410VgnVCM100000b272010aRCRD" target="_blank">Sebrae</a></li>
+    </ul>
+    <p><a href="#inicio">Voltar ao começo</a></p>
+</body>
+</html>
