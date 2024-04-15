@@ -1,0 +1,235 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    font-size: 18px;
+    width: 1348px;
+    display: inline-flex;
+    background-color: rgb(43, 43, 63);
+    color: white;
+}
+.header_logo{
+    margin-top: 8px;
+}
+header p{
+    margin-left: 5px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(235, 152, 119);
+    letter-spacing: 2px;
+    padding: 4px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: pink;
+}
+header ul{
+    margin-left: 745px;
+    display: inline-flex;
+    list-style: none;
+}
+header ul li{
+    padding: 10px;
+    letter-spacing: 2px;
+    margin-right: 5px;
+}
+header ul li:hover{
+    border-radius: 10px;
+    background-color: rgb(70, 70, 110);
+}
+.ancoras { list-style: none; padding-left: 5px; }
+.topicos li:hover{
+    text-decoration: underline;
+}
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #52527a;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.anchors {
+    padding-left: 15px;
+    background-color: rgb(200, 200, 240);
+}
+.ancoras li{
+    margin-top: 10px;
+}
+.anchors a{
+    color: black;
+    padding: 5px;
+}
+.anchors a:hover{
+    border-radius: 10px;
+    background-color: rgb(141, 141, 187);
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+blockquote{
+    background-color: #d8e0e0;
+    border-left: 8px solid #a3b6b6;
+}
+.card1{
+    float: right;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #f5e8f2;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .24);
+    margin-left: 10px;
+}
+.card2{
+    float: left;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #f5e8f2;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .24);
+    margin-right: 10px;
+}
+.card_table{
+    float: right;
+    font-size: 18px;
+}
+.card_table table{
+    width: 100px;
+    border: 1px solid black;
+    background-color: rgb(228, 237, 255);
+    text-align: center;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .24);
+}
+.card_table table th{
+    background-color: rgb(59, 59, 94);
+    color: white;
+}
+.card_table table tr:nth-child(even) td{
+    background-color: rgb(192, 192, 255);
+}
+.formulario{
+    justify-content: center;    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin: 0;
+}
+.form-cadastro{
+    margin-top: 2em;
+}
+.formulario form{
+    background-color: rgb(226, 228, 230);
+    width: 90%;
+    min-width: 18em;
+    max-width: 28em;
+    padding: 2em;
+    border: 4px solid rgb(156, 156, 177);
+}
+.formulario form fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.title-fieldset{
+    padding: .6em 0;
+    font-weight: bold;
+    color: rgb(70, 70, 110);
+    font-size: 1.6em;
+    margin: 0;
+}
+.title-label{
+    color: rgb(0, 0, 0);
+}
+.enter{
+    background-color: rgb(180, 180, 238);
+    border: 2px solid transparent;
+    border-bottom-color: rgb(4, 117, 117);
+    padding: .75em;
+    margin: .4em 0 2.5em;
+    color: black;
+    outline: 0;
+}
+.enter:focus{
+    border-bottom: 2px solid rgb(81, 4, 117);
+    margin-left: .4em;
+}
+.botao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(70, 70, 110);
+    color: white;
+    cursor: pointer;
+    padding: .8em;
+    font-size: 1em;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.btn:hover{
+    background-color: rgb(56, 56, 87);
+    color: rgb(247, 244, 115);
+}
+.a1{
+    text-decoration: none;
+    margin-right: 5em;
+    color: #064d4d;
+}
+.a1:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.a2{
+    color: #064d4d;
+    font-size: .8em;
+}
+.a2:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.footer{
+    background-color: rgb(43, 43, 63);
+}
+.footer p{
+    margin-top: 1.4em;
+    text-align: center;
+    color: white;
+}
+.footer {
+    margin-top: 1em;
+    height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: pink;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 110);
+    padding: 5px;
+}

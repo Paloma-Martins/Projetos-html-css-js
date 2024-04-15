@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Doctors</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <p class="logo"><a href="index.html">Good Doctors</a></p>
+            <ul class="menu_list">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="sobre.html">Sobre nós</a></li>
+
+                <li><a href="horario.html">Horários</a></li>
+
+                <li><a href="valores.html">Preços</a></li>
+
+                <li><a href="contato.html">Contato</a></li>
+
+                <li><a href="localizacao.html">Localização</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div class="header_img">
+                    <img src="midias/imagem6.jpg" width="986px" alt="imagem contendo 4 médicos da clínica">
+                </div>
+                <div class="header_title">
+                    <h1 align="center">Agende sua consulta</h1>
+                    <p align="center"><b>Clínica Médica especializada</b></p>
+                </div>
+            </div>
+    
+            <div class="content">
+                <h2>Formulário de Agendamento</h2>
+                <form onsubmit="alert('Dados enviados com sucesso. Logo entraremos em contato para finalizar o agendamento.')" action="#" method="post" target="_blank" align="letf">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <label>Nome Completo:*</label>
+                        <input type="text" name="nome">
+                        <br><br>
+                        <label>Data de nascimento:*</label>
+                        <input type="date" name="dataNascimento">
+                        <br><br>
+                        <label>Sexo:*</label>
+                        <input type="radio" name="sexo" value="Feminino">Feminino
+                        <input type="radio" name="sexo" value="Masculino">Masculino
+                        <br><br>
+                        <label>Telefone:*</label>
+                        <input type="tel" name="telefone">
+                        <br>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <label>End:*</label>
+                        <input type="text">
+                        <br><br>
+                        <label>Nº:*</label>
+                        <input type="number">
+                        <br><br>
+                        <label>Cidade:*</label>
+                        <input type="text">
+                        <br><br>
+                        <label>UF:*</label>
+                        <select>
+                            <option>Selecione</option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Informações de agendamento</legend>
+                        <label>Escolha as especialidade:*</label><br>
+                        <input type="radio" name="especialidade" value="Clinico geral">Clinico geral<br>
+                        <input type="radio" name="especialidade" value="Psiquiatra">Psiquiatra<br>
+                        <input type="radio" name="especialidade" value="Ginecologista">Ginecologista<br>
+                        <input type="radio" name="especialidade" value="Ginecologista/Obstreta">Ginecologista/Obstreta<br>
+                        <input type="radio" name="especialidade" value="Cardiologista">Cardiologista<br>
+                        <input type="radio" name="especialidade" value="Neurologista">Neurologista<br>
+                        <input type="radio" name="especialidade" value="Otorrinolaringologista">Otorrinolaringologista<br>
+                        <input type="radio" name="especialidade" value="Nutrição">Nutrição<br>
+                        <input type="radio" name="especialidade" value="Dermatologista">Dermatologista<br>
+                        <br>
+                        <label>Selecione as afirmações adequadas a você:*</label><br>
+                        <input type="checkbox" name="opcional[]" value="">Possui exames anteriores<br>
+                        <input type="checkbox" name="opcional[]" value="">Tem alergia a medicamentos<br>
+                        <input type="checkbox" name="opcional[]" value="">Tem diabetes<br>
+                        <input type="checkbox" name="opcional[]" value="">Tem problemas cardiacos<br>
+                        <input type="checkbox" name="opcional[]" value="">É PCD<br>
+                        <input type="checkbox" name="opcional[]" value="">Precisa de acompanhante<br>
+                        <br>
+                        <label>Obs:</label><br>
+                        <textarea name="Observações" id="" cols="50" rows="10"></textarea>
+                        <br><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Apagar</button>
+                    </fieldset>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <div class="contatos">
+                    <h3>Contatos</h3>
+                    <p>0800 555 4444</p>
+                    <p>(11)5555-5555</p>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; gooddoctors.com.br</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

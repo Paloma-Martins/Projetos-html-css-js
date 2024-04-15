@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Pedido</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Pedido</legend>
+            <p>Escolha o tamanho da pizza:</p>
+            <input type="radio" name="tamanho" value="Sim">
+            <label> 4 pedaços (R$28,00)</label>
+            <br>
+            <input type="radio" name="tamanho" value="não">
+            <label> 8 pedaços (R$50,00)</label><br>
+
+            <p>Escolha o sabor da pizza:</p>
+            <input type="radio" name="sabor" value="mussarela">
+            <label>Mussarela</label><br>
+            <input type="radio" name="sabor" value="calabresa">
+            <label>Calabresa</label><br>
+            <input type="radio" name="sabor" value="frango">
+            <label>Frango com catupiry</label><br>
+            <input type="radio" name="sabor" value="mussarelaCalabresa">
+            <label>1/2 Mussarela e 1/2 Calabresa</label><br>
+            <input type="radio" name="sabor" value="mussarelaFrango">
+            <label>1/2 Mussarela e 1/2 Frango com catupiry</label><br>
+            <input type="radio" name="sabor" value="frangoCalabresa">
+            <label>1/2 Frango com catupiry e 1/2 Calabresa</label><br>
+
+            <p>Borda recheada?</p>
+            <input type="radio" name="borda" value="Sim">
+            <label>Sim (R$5,00)</label><br>
+            <input type="radio" name="borda" value="Não">
+            <label>Não</label><br>
+
+            <p>Deseja retirar algum ingrediente?</p>
+            <input type="checkbox" name="opcional[]" value="Cebola">
+            <label>Cebola</label><br>
+            <input type="checkbox" name="opcional[]" value="Tomate">
+            <label>Tomate</label><br>
+            <input type="checkbox" name="opcional[]" value="Azeitona">
+            <label>Azeitona</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome completo:*</label>
+            <input type="text" name="name">
+            <br><br>
+            <label>Idade:*</label>
+            <input type="number" name="age">
+            <br><br>
+            <label>CPF:*</label>
+            <input type="tex" name="cpf">
+            <br><br>
+            <label>Telefone para contato:*</label>
+            <input type="tel" name="phone">
+            <br><br>
+            <label>E-mail:*</label>
+            <input type="email" name="email"><br>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Endereço de entrega</legend>
+        </fieldset>
+    </form>
+
+</body>
+</html>
